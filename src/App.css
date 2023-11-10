@@ -1,38 +1,67 @@
+h1{
+    text-align: center;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+    background-color: #555;
+    border-radius: 10px;
   }
+  #email{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 300px;
+    height: 40px;
+    /* text-align: center; */
+    line-height: 40px;
+    padding: 5px;
+    opacity: .8;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+    margin: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#room{
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    /* text-align: center; */
+    line-height: 40px;
+    opacity: .8;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+    margin: 5px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+label, .text{
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  .butn{
+    margin: 10px;
+    border-radius: 10px;
+    /* height: 30px; */
+    padding: 15px 15px;
+    font-size: 16px;
+    border: 0;
+    color: antiquewhite;
+    outline: 0;
+    cursor: pointer;
+    background: #0c0c0c;
   }
-}
+  .Stream{
+    border-radius: 10px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
